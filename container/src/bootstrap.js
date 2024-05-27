@@ -1,7 +1,9 @@
-import { mount as productsMount } from 'products/ProductsIndex';
-import { mount as cartMount } from 'cart/CartShow';
 
-console.log('Container!');
+console.log('Container Running!!!');
 
-productsMount(document.querySelector('#my-products'));
-cartMount(document.querySelector('#my-cart'));
+const cartEl = document.querySelector('#my-cart');
+const productsEl = document.querySelector('#my-products');
+
+console.log('CART ELEMENT>>>', cartEl);
+console.log('PRODUCTS ELEMENT>>>>', productsEl);
+
